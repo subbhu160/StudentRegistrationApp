@@ -1,0 +1,15 @@
+
+server:
+  port: 8088 
+spring:
+  application:
+    name: studentRegistration
+  datasource:
+    password: Subha@123
+    url: jdbc:mysql://localhost:3306/jrtp
+    username: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
